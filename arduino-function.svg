@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF01AA;}
+	.st1{fill:#FFAA00;}
+	.st2{fill:#0090FF;}
+	.st3{fill:#008A8D;}
+	.st4{fill:#004D4E;}
+	.st5{fill:#495E00;}
+	.st6{font-family:'BitstreamVeraSans-Oblique';}
+	.st7{font-size:45px;}
+	.st8{letter-spacing:7;}
+	
+		.st9{display:none;opacity:0.5;fill:none;stroke:#FFAA00;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2,8;enable-background:new    ;}
+	.st10{fill:none;stroke:#008A8D;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+	.st11{font-size:30px;}
+	.st12{display:none;opacity:0.5;}
+	.st13{display:inline;fill:none;}
+	.st14{display:inline;fill:#FFAA00;}
+	.st15{fill:none;stroke:#0090FF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+	.st16{font-family:'BitstreamVeraSans-Roman';}
+	.st17{letter-spacing:-18;}
+	.st18{letter-spacing:21;}
+	.st19{fill:none;stroke:#0090FF;stroke-linecap:round;stroke-linejoin:round;}
+	.st20{fill:none;stroke:#008A8D;stroke-linecap:round;stroke-linejoin:round;}
+	.st21{font-size:18px;}
+	.st22{fill:none;stroke:#FFAA00;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+	.st23{fill:none;stroke:#FF01AA;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+	
+		.st24{opacity:0.3;fill:none;stroke:#FF01AA;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2,8;enable-background:new    ;}
+</style>
+<rect x="31" y="-135" class="st0" width="38" height="38"/>
+<rect x="83" y="-135" class="st1" width="38" height="38"/>
+<rect x="135" y="-135" class="st2" width="38" height="38"/>
+<rect x="187" y="-135" class="st3" width="38" height="38"/>
+<rect x="287.8" y="-135" class="st4" width="38" height="38"/>
+<rect x="239" y="-135" class="st5" width="38" height="38"/>
+<text transform="matrix(1 0 0 1 239.9297 179.8193)" class="st3 st6 st7">void </text>
+<text transform="matrix(1 0 0 1 375.4297 179.8193)" class="st6 st7">printSometing()</text>
+<text transform="matrix(1 0 0 1 239.9297 233.8193)" class="st6 st7">{</text>
+<text transform="matrix(1 0 0 1 239.9297 287.8193)" class="st6 st7 st8"> </text>
+<text transform="matrix(1 0 0 1 275.9297 287.8193)" class="st1 st6 st7">Serial.println</text>
+<text transform="matrix(1 0 0 1 655.2297 287.8193)" class="st6 st7">(“something“);</text>
+<text transform="matrix(1 0 0 1 239.9297 341.8193)" class="st6 st7">}</text>
+<path class="st9" d="M219.5,195.5h-20c-3.9,0-7,3.1-7,7V345c0,3.9,3.1,7,7,7h20"/>
+<path class="st10" d="M344,125v-20c0-3.9-3.1-7-7-7h-90c-3.9,0-7,3.1-7,7v20"/>
+<text transform="matrix(1 0 0 1 195.2837 65.1289)" class="st3 st6 st11">output: none</text>
+<g class="st12">
+	<rect x="72" y="259.3" class="st13" width="111" height="28.7"/>
+	<text transform="matrix(1 0 0 1 91.3262 282.1289)" class="st14 st6 st11">code</text>
+</g>
+<path class="st15" d="M776,125v-20c0-3.9-3.1-7-7-7h-26c-3.9,0-7,3.1-7,7v20"/>
+<text transform="matrix(1 0 0 1 728.2539 65.1289)" class="st2 st6 st11">parameters: none</text>
+<text transform="matrix(1 0 0 1 249.2148 698.8198)" class="st3 st16 st7">int </text>
+<text transform="matrix(1 0 0 1 348.3297 698.8198)" class="st16 st7">addNumbers(</text>
+<text transform="matrix(1 0 0 1 655.8444 698.8198)" class="st3 st16 st7">int </text>
+<text transform="matrix(1 0 0 1 754.7297 698.8198)" class="st16 st7">firstAddend, </text>
+<text transform="matrix(1 0 0 1 1117.975 698.8198)" class="st3 st16 st7">int </text>
+<text transform="matrix(1 0 0 1 1215.2297 698.8198)" class="st16 st7">secondAddend)</text>
+<text transform="matrix(1 0 0 1 239.9297 752.8198)" class="st16 st7">{</text>
+<text transform="matrix(1 0 0 1 239.9297 806.8198)" class="st16 st7 st8"> </text>
+<text transform="matrix(1 0 0 1 275.9297 806.8198)" class="st3 st16 st7">int </text>
+<text transform="matrix(1 0 0 1 384.3297 806.8198)" class="st16 st7">returnValue;</text>
+<text transform="matrix(1 0 0 1 239.9297 860.8198)" class="st16 st7"> </text>
+<text transform="matrix(1 0 0 1 267.0297 860.8198)" class="st16 st7 st17"> </text>
+<text transform="matrix(1 0 0 1 275.9297 860.8198)" class="st16 st7">returnValue = firstAddend + secondAddend;</text>
+<text transform="matrix(1 0 0 1 239.9297 914.8198)" class="st16 st7 st8"> </text>
+<text transform="matrix(1 0 0 1 275.9297 914.8198)" class="st5 st16 st7 st18">		</text>
+<text transform="matrix(1 0 0 1 465.5297 914.8198)" class="st16 st7">returnValue;</text>
+<text transform="matrix(1 0 0 1 239.9297 968.8198)" class="st16 st7">}</text>
+<path class="st9" d="M219.5,707.5h-20c-3.9,0-7,3.1-7,7V969c0,3.9,3.1,7,7,7h20"/>
+<g class="st12">
+	<rect x="72" y="827.3" class="st13" width="111" height="28.7"/>
+	<text transform="matrix(1 0 0 1 91.3262 850.1289)" class="st14 st6 st11">code</text>
+</g>
+<path class="st19" d="M1052,707.9v12c0,1.7-1.3,3-3,3H763c-1.7,0-3-1.3-3-3v-12"/>
+<path class="st19" d="M1540,707.9v12c0,1.7-1.3,3-3,3h-318c-1.7,0-3-1.3-3-3v-12"/>
+<path class="st15" d="M1054,643.9v-20c0-3.9-3.1-7-7-7H653c-3.9,0-7,3.1-7,7v20"/>
+<path class="st15" d="M1542,643.9v-20c0-3.9-3.1-7-7-7h-423c-3.9,0-7,3.1-7,7v20"/>
+<path class="st20" d="M725,707.9v12c0,1.7-1.3,3-3,3h-71c-1.7,0-3-1.3-3-3v-12"/>
+<path class="st20" d="M1186,707.9v12c0,1.7-1.3,3-3,3h-71c-1.7,0-3-1.3-3-3v-12"/>
+<text transform="matrix(1 0 0 1 648.2402 739.8966)" class="st3 st6 st21">datatype</text>
+<g>
+	<text transform="matrix(1 0 0 1 880.4766 739.8971)" class="st2 st6 st21">name</text>
+</g>
+<text transform="matrix(1 0 0 1 1109.2402 739.8966)" class="st3 st6 st21">datatype</text>
+<g>
+	<text transform="matrix(1 0 0 1 1352.4766 739.8966)" class="st2 st6 st21">name</text>
+</g>
+<path class="st22" d="M625,643.9v-20c0-3.9-3.1-7-7-7H359c-3.9,0-7,3.1-7,7v20"/>
+<g>
+	<text transform="matrix(1 0 0 1 379.918 584.0172)" class="st1 st6 st11">function name</text>
+</g>
+<path class="st22" d="M726,125v-20c0-3.9-3.1-7-7-7H385c-3.9,0-7,3.1-7,7v20"/>
+<g>
+	<text transform="matrix(1 0 0 1 443.418 65.1289)" class="st1 st6 st11">function name</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 1186.0469 584.0172)" class="st2 st6 st11">second parameter</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 736.7305 584.0172)" class="st2 st6 st11">first parameter</text>
+</g>
+<path id="output_type" class="st10" d="M320.8,643.9v-20c0-3.9-3.1-7-7-7H247c-3.9,0-7,3.1-7,7v20"/>
+<text transform="matrix(1 0 0 1 181.0598 584.0436)" class="st3 st6 st11">output type</text>
+<path id="function_output" class="st23" d="M474,989.2v20c0,3.9,3.1,7,7,7h278c3.9,0,7-3.1,7-7v-20"/>
+<text transform="matrix(1 0 0 1 504.4824 1066.0164)" class="st0 st6 st11">function output</text>
+<path id="function_output-light" class="st24" d="M474,935v74.2c0,3.9,3.1,7,7,7h278c3.9,0,7-3.1,7-7V935"/>
+</svg>
