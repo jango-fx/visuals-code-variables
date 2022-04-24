@@ -37,78 +37,84 @@
 			.stroke-orange { stroke: #FFAA00; }
 			.stroke-blue { stroke: #0090FF; }
 			.stroke-turquoise { stroke: #008A8D; }
+
+
 			.stroke-fine { fill: none; stroke-linecap: round; stroke-linejoin: round; }
 			.stroke-thick { stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
 			.stroke-dashed { opacity: 0.3; stroke-dasharray: 2, 8; }
 		</style>
 	</defs>
-	<g>
-		<g class="font-code font-size45" opacity="0.5" transform="translate(240,100)">
-			<text y="1.5em">
-				<tspan class="fill-turquoise">void</tspan> printSometing()
+	<g transform="translate(240,100)">
+		<g class="font-code font-size45" opacity="0.5">
+			<text y="2em">
+				<tspan class="fill-turquoise">int</tspan> myNumber = 20;
 			</text>
-			<text y="3.0em">{</text>
-			<g transform="translate(100,0)">
-				<text y="4.5em">
-					<tspan class="fill-orange">Serial.println</tspan>(<tspan class="fill-turquoise-dark">"something"</tspan>);
-				</text>
-			</g>
-			<text y="6.0em">}</text>
+			<text y="6em">myNumber = myNumber + 20;</text>
+			<text y="10em"><tspan class="fill-olive">if</tspan><tspan> ( myNumber == 100 )</tspan>
+			<tspan x="0" y="11.5em">{</tspan>
+			<tspan x="1.5em" y="13em">doStuff()</tspan>
+			<tspan x="0" y="14.5em">}</tspan></text>
 		</g>
-		<g class="font-label font-size30" transform="translate(0,-10)">
-			<text transform="translate(195 65)" class="fill-turquoise">output: none</text>
-			<path class="stroke-turquoise stroke-thick" d="M344,125v-20c0-3.9-3.1-7-7-7h-90c-3.9,0-7,3.1-7,7v20" />
-			<text transform="translate(450 65)" class="fill-orange">function name</text>
-			<path class="stroke-orange stroke-thick" d="M726,125v-20c0-3.9-3.1-7-7-7H385c-3.9,0-7,3.1-7,7v20" />
-			<text transform="matrix(1 0 0 1 728.2539 65)" class="fill-blue">parameters: none</text>
-			<path class="stroke-blue stroke-thick" d="M776,125v-20c0-3.9-3.1-7-7-7h-26c-3.9,0-7,3.1-7,7v20" />
-		</g>
-	</g>
-	<g>
-		<g class="font-code font-size45" opacity="0.5" transform="translate(240,580)">
-			<text y="1.5em">
-				<tspan class="fill-turquoise">int</tspan> addNumbers(<tspan class="fill-turquoise">int</tspan>firstAddend, <tspan class="fill-turquoise">int</tspan> secondAddend)
-			</text>
-			<text y="3.0em">{</text>
-			<g transform="translate(100,0)">
-				<text y="4.5em">
-					<tspan class="fill-turquoise">int</tspan> returnValue;
-				</text>
-				<text y="6.0em">returnValue = firstAddend + secondAddend;</text>
-				<text y="7.5em">
-					<tspan class="fill-olive">return</tspan> returnValue;
-				</text>
+		
+		<g id="variable-declaration" transform="translate(0,140)">
+			<g class="font-label font-size18" transform="translate(40,0)">
+				<text class="fill-turquoise" text-anchor="middle">datatype</text>
+				<path class="stroke-turquoise stroke-fine" d="M 35.5,-42v12c0,1.7-1.3,3-3,3h-71c-1.7,0-3-1.3-3-3v-12" />
 			</g>
-			<text y="9.0em">}</text>
+			<g class="font-label font-size18" transform="translate(215,0)">
+				<text class="fill-blue" text-anchor="middle">name</text>
+				<path class="stroke-blue stroke-fine" d="M 107.5,-42 v 12 c 0,1.7-1.3,3-3, 3 h -215 c-1.7,0-3-1.3-3-3v-12" />
+			</g>
+			<g class="font-label font-size18" transform="translate(365,0)">
+				<text class="fill-orange" x="-15" text-anchor="middle">assignment</text>
+				<path class="stroke-orange stroke-fine" d="M 25,-42 v 12 c 0,1.7-1.3,3-3,3 h-50 c-1.7, 0-3-1.3-3-3 v-12" />
+			</g>
+			<g class="font-label font-size18" transform="translate(435,0)">
+				<text class="fill-pink" x="15" text-anchor="middle">initial value</text>
+				<path class="stroke-pink stroke-fine" d="M 25,-42 v 12 c 0,1.7-1.3,3-3,3 h-50 c-1.7, 0-3-1.3-3-3 v-12" />
+			</g>
 		</g>
 
-		<g class="font-label font-size30" transform="translate(0,-50)">
-			<text transform="translate(195 584)" class="fill-turquoise">output type</text>
-			<path id="output_type" class="stroke-thick stroke-turquoise"
-				d="M320.8,643.9v-20c0-3.9-3.1-7-7-7H247c-3.9,0-7,3.1-7,7v20" />
-			<text transform="translate(390 584)" class="fill-orange">function name</text>
-			<path class="stroke-thick stroke-orange" d="M625,643.9v-20c0-3.9-3.1-7-7-7H359c-3.9,0-7,3.1-7,7v20" />
-			<text transform="translate(710 584)" class="fill-blue">first parameter</text>
-			<path class="stroke-thick stroke-blue" d="M1054,643.9v-20c0-3.9-3.1-7-7-7H653c-3.9,0-7,3.1-7,7v20" />
-			<text transform="translate(1180 584)" class="fill-blue">second parameter</text>
-			<path class="stroke-thick stroke-blue" d="M1542,643.9v-20c0-3.9-3.1-7-7-7h-423c-3.9,0-7,3.1-7,7v20" />
+		<g id="variable-assignment" style="transform: translate(0px, calc(140px + 180px));">
+			<g class="font-label font-size18" transform="translate(110,0)">
+				<text class="fill-blue" text-anchor="middle">name</text>
+				<path class="stroke-blue stroke-fine" d="M 107.5,-42 v 12 c 0,1.7-1.3,3-3, 3 h -215 c-1.7,0-3-1.3-3-3v-12" />
+			</g>
+			<g class="font-label font-size18" transform="translate(258,0)">
+				<text class="fill-orange" text-anchor="middle">assignment</text>
+				<path class="stroke-orange stroke-fine" d="M 25,-42 v 12 c 0,1.7-1.3,3-3,3 h-50 c-1.7, 0-3-1.3-3-3 v-12" />
+			</g>
+			<g class="font-label font-size18" transform="translate(480,0)">
+				<text class="fill-pink" text-anchor="middle">new value</text>
+				<path class="stroke-pink stroke-fine" d="M 175,-42 v 12 c 0,1.7-1.3,3-3, 3 h -350 c-1.7,0-3-1.3-3-3v-12" />
+			</g>
 		</g>
-		<g class="font-label font-size18">
-			<text class="fill-turquoise" x="650" y="700">datatype</text>
-			<path class="stroke-turquoise stroke-fine" transform="translate(-2,-50)" d="M725,707.9v12c0,1.7-1.3,3-3,3h-71c-1.7,0-3-1.3-3-3v-12" />
-			<text class="fill-blue" x="860" y="700">name</text>
-			<path class="stroke-blue stroke-fine" transform="translate(-25,-50)" d="M1052,707.9v12c0,1.7-1.3,3-3,3H763c-1.7,0-3-1.3-3-3v-12" />
-			<text class="fill-turquoise" x="1083" y="700">datatype</text>
-			<path class="stroke-turquoise stroke-fine" transform="translate(-30,-50)" d="M1186,707.9v12c0,1.7-1.3,3-3,3h-71c-1.7,0-3-1.3-3-3v-12" />
-			<text class="fill-blue" x="1325" y="700">name</text>
-			<path class="stroke-blue stroke-fine" transform="translate(-30,-50)" d="M1540,707.9v12c0,1.7-1.3,3-3,3h-318c-1.7,0-3-1.3-3-3v-12" />
+
+		<g id="variable-assignment" style="transform: translate(0px, calc(120px + 380px));">
+			<g class="font-label font-size18" transform="translate(245,0)">
+				<text class="fill-blue" text-anchor="middle">name</text>
+				<path class="stroke-blue stroke-fine" d="M 107.5,-42 v 12 c 0,1.7-1.3,3-3, 3 h -215 c-1.7,0-3-1.3-3-3v-12" />
+			</g>
+			<g class="font-label font-size18" transform="translate(408,0)">
+				<text class="fill-orange" x="-5" text-anchor="middle">query</text>
+				<path class="stroke-orange stroke-fine" d="M 25,-42 v 12 c 0,1.7-1.3,3-3,3 h-50 c-1.7, 0-3-1.3-3-3 v-12" />
+			</g>
+			<g class="font-label font-size18" transform="translate(505,0)">
+				<text class="fill-pink" x="5" text-anchor="middle">comparison value</text>
+				<path class="stroke-pink stroke-fine" d="M 40,-42 v 12 c 0,1.7-1.3,3-3, 3 h -80 c-1.7,0-3-1.3-3-3v-12" />
+			</g>
 		</g>
-		<g class="font-label font-size30" transform="translate(60,0)">
-			<text transform="matrix(1 0 0 1 504.4824 1066.0164)" class="fill-pink">function output</text>
-			<path id="function_output" class="stroke-thick stroke-pink"
-				d="M474,989.2v20c0,3.9,3.1,7,7,7h278c3.9,0,7-3.1,7-7v-20" />
-			<path id="function_output-light" class="stroke-thick stroke-pink stroke-dashed"
-				d="M474,935v74.2c0,3.9,3.1,7,7,7h278c3.9,0,7-3.1,7-7V935" />
+
+		<g transform="translate(800,0)">
+		<path id="declaration_initialization" class="stroke-blue stroke-thick" d="M 0 , 50 h8c3.9,0,7,3.1,7,7 v 84 c0,3.9-3.1,7-7,7h-8"/>
+		<text class="font-label font-size30" x="50" y="105">declaration (and initialization)</text>
+		<path id="assignment" class="stroke-blue stroke-thick" d="M 0 , 220 h8c3.9,0,7,3.1,7,7 v 84 c0,3.9-3.1,7-7,7h-8"/>
+		<text class="font-label font-size30" x="50" y="275">assignment</text>
+		<path id="condition" class="stroke-blue stroke-thick" d="M 0 , 410 h8c3.9,0,7,3.1,7,7 v 55 h-15"/>
+		<text class="font-label font-size30" x="50" y="450">condition</text>
+		<path id="conditional_code" class="stroke-blue stroke-thick" opacity="0.5" d="M 0 , 472 h15 v 192 c0,3.9-3.1,7-7,7h-8"/>
+		<text class="font-label font-size30" x="50" y="560" opacity="0.5" >conditional code</text>
 		</g>
+
 	</g>
 </svg>
